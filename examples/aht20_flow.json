@@ -1,5 +1,13 @@
 [
     {
+        "id": "94eeaa51bebbd38e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "1bf26338fc3bcb9e",
         "type": "inject",
         "z": "94eeaa51bebbd38e",
@@ -27,5 +35,36 @@
                 "361437a4dc877831"
             ]
         ]
+    },
+    {
+        "id": "361437a4dc877831",
+        "type": "Aht20",
+        "z": "94eeaa51bebbd38e",
+        "name": "test",
+        "bus": "1",
+        "topic": "aht20",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "da8b7f0f5d147214"
+            ]
+        ]
+    },
+    {
+        "id": "da8b7f0f5d147214",
+        "type": "debug",
+        "z": "94eeaa51bebbd38e",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 260,
+        "wires": []
     }
 ]
